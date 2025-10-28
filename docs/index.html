@@ -561,7 +561,6 @@
 
     </div>
 
-
     <!-- 视频容器 -->
     <div id="Open-Sora" style="display:flex;flex-direction:column;gap:2px;"></div>
   </div>
@@ -585,49 +584,85 @@
     "A close-up of a chameleon slowly changing colors as it moves across different surfaces, showcasing its camouflage abilities.-0",
   ];
 
-  // 🔥 新容器 ID：Open-Sora
   const container = document.getElementById('Open-Sora');
+  const rows = [];
 
+  // 生成视频行
   prompts.forEach(promptText => {
     const row = document.createElement('div');
     row.style.display = 'grid';
     row.style.gridTemplateColumns = 'repeat(5, 1fr)';
-    row.style.columnGap = '2px';   // 横向间隔更紧凑
-    row.style.rowGap = '0px';      // 同一行不需要垂直间距
+    row.style.columnGap = '2px';
     row.style.alignItems = 'center';
 
+    const vids = [];
     methods.forEach(m => {
       const video = document.createElement('video');
-      video.autoplay = true;
       video.muted = true;
       video.loop = true;
+      video.autoplay = true;
       video.playsInline = true;
-      video.preload = 'metadata';
+      video.preload = 'auto';
       video.controls = true;
       video.style.width = '100%';
       video.style.border = '1px solid #ddd';
       video.style.borderRadius = '6px';
-      video.style.display = 'block';
-      
+
       const src = document.createElement('source');
       src.src = encodeURI(`${m.base}/${promptText}${ext}`);
       src.type = 'video/mp4';
       video.appendChild(src);
-
       row.appendChild(video);
+      vids.push(video);
     });
-
+    rows.push(vids);
     container.appendChild(row);
   });
 
-  // 强制全部自动播放（确保浏览器策略允许静音播放）
+  // 工具函数
+  const waitReady = v => new Promise(r => {
+    if (v.readyState >= 2) r();
+    else v.addEventListener('loadeddata', r, { once: true });
+  });
+
+  // 同步逻辑
+  async function syncRow(vids) {
+    await Promise.all(vids.map(waitReady));
+    vids.forEach(v => v.currentTime = 0);
+
+    const master = vids[0];
+    const slaves = vids.slice(1);
+
+    // 启动播放
+    vids.forEach(v => v.play().catch(()=>{}));
+
+    // 定期纠偏
+    const HARD = 0.08; // 秒
+    const SOFT = 0.05;
+    const DELTA = 0.04;
+
+    function tune(slave, diff) {
+      if (Math.abs(diff) < SOFT) {
+        slave.playbackRate = diff > 0 ? 1 - DELTA : 1 + DELTA;
+      } else {
+        slave.currentTime = master.currentTime;
+        slave.playbackRate = 1;
+      }
+    }
+
+    function loop() {
+      const t = master.currentTime;
+      slaves.forEach(s => tune(s, s.currentTime - t));
+      requestAnimationFrame(loop);
+    }
+    requestAnimationFrame(loop);
+  }
+
+  // 每行建立同步
   window.addEventListener('load', () => {
-    document.querySelectorAll('#Open-Sora video').forEach(v => {
-      v.play().catch(()=>{});
-    });
+    rows.forEach(r => syncRow(r));
   });
 </script>
-<!-- ================= End Open-Sora Video Comparison ================ -->
 
 
 
