@@ -1,3 +1,12 @@
+📚English | <a href="./README_CN.md">📚中文阅读 </a> 
+
+<div align="center">
+<!-- <img src="https://github.com/user-attachments/assets/6ceb4269-a861-4545-84db-bad322592156" style="width:auto; height:120px;" />&nbsp; -->
+<img src="./docs/static/images/logv2.png" style="width:auto; height:120px;">
+</div>
+
+
+
 # [NeurIPS 2025 Spotlight] LeMiCa: Lexicographic Minimax Path Caching for Efficient Diffusion-Based Video Generation
 
 <div class="is-size-5 publication-authors" align="center">
