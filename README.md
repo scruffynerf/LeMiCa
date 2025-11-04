@@ -166,7 +166,7 @@ If you find **LeMiCa** useful in your research or applications, please consider 
 @inproceedings{gao2025lemica,
   title     = {LeMiCa: Lexicographic Minimax Path Caching for Efficient Diffusion-Based Video Generation},
   author    = {Huanlin Gao and Ping Chen and Fuyuan Shi and Chao Tan and Zhaoxiang Liu and Fang Zhao and Kai Wang and Shiguo Lian},
-  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  journal   = {Advances in Neural Information Processing Systems (NeurIPS)},
   year      = {2025},
-  url       = {https://unicomai.github.io/LeMiCa/}
+  url       = {https://arxiv.org/abs/2511.00090}
 }
