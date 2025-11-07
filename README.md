@@ -170,3 +170,4 @@ If you find **LeMiCa** useful in your research or applications, please consider 
   year      = {2025},
   url       = {https://arxiv.org/abs/2511.00090}
 }
+```
