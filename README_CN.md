@@ -87,6 +87,10 @@
 - [2025/09/18] ✨ LeMiCa首次公开发布. 
 
 ##  展示
+
+### Wan2.1
+https://github.com/user-attachments/assets/3d99b959-7253-47ec-af0a-da13a66e6d49
+
 ### Open-Sora
 
 https://github.com/user-attachments/assets/ba205856-2d77-494a-aaa9-09189ba2915c

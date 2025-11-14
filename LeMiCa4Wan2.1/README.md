@@ -39,14 +39,15 @@ https://github.com/user-attachments/assets/bcdaa756-b020-4e37-9f37-2dfd1fefb88a
 | Model | Wan2.1 (latency min) | LeMiCa (B=25) | LeMiCa (B=20) | LeMiCa (B=17) | LeMiCa (B=14) |
 |:------:|:--------------------:|:--------------:|:--------------:|:--------------:|:--------------:|
 | **I2V 14B 480p** | $7.78$ | $5.01$ ($\mathbf{1.55\text{x}}$) | $4.44$ ($\mathbf{1.75\text{x}}$) | $3.62$ ($\mathbf{2.15\text{x}}$) | $3.24$ ($\mathbf{2.40\text{x}}$) |
-<!-- | **T2V 14B 720p**  | $31.48$ | $15.95$ ($\mathbf{1.97\text{x}}$) | $12.85$ ($\mathbf{2.45\text{x}}$) | $10.98$ ($\mathbf{2.87\text{x}}$) | $10.98$ ($\mathbf{2.87\text{x}}$) | -->
+| **T2V 14B 720p** | $17.03$ | $11.11$ ($\mathbf{1.53\text{x}}$) | $9.03$ ($\mathbf{1.89\text{x}}$) | $7.79$ ($\mathbf{2.18\text{x}}$) | $6.67$ ($\mathbf{2.55\text{x}}$) |
+
+
 
 ####  I2V 480P
-https://github.com/user-attachments/assets/9c6ab4be-ce6d-482e-b2fa-e5ee673a66b9
+https://github.com/user-attachments/assets/3d99b959-7253-47ec-af0a-da13a66e6d49
 
-<!-- ####  I2V 720P
-https://github.com/user-attachments/assets/bcdaa756-b020-4e37-9f37-2dfd1fefb88a -->
-
+####  I2V 720P
+https://github.com/user-attachments/assets/29ee21b6-e002-4dc5-8740-45d5c4a1330e
 
 
 
