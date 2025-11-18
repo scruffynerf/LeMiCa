@@ -141,7 +141,7 @@ LeMiCa currently supports and has been tested on the following diffusion-based m
 - [Open-Sora](https://github.com/hpcaitech/Open-Sora)  
 - [Latte](https://github.com/Vchitect/Latte)  
 - [CogVideoX 1.5](https://github.com/THUDM/CogVideo)  
-- [HunyuanVideo](https://github.com/Tencent/HunyuanVideo)  
+- [Wan2.1](https://github.com/Wan-Video/Wan2.1)  
 
 **Text-to-Image**
 - [Qwen-Image](https://github.com/QwenLM/Qwen-Image)  

@@ -115,7 +115,7 @@ LeMiCa 目前支持并已在以下基于扩散的模型上进行了测试：
 - [Open-Sora](https://github.com/hpcaitech/Open-Sora)  
 - [Latte](https://github.com/Vchitect/Latte)  
 - [CogVideoX 1.5](https://github.com/THUDM/CogVideo)  
-- [HunyuanVideo](https://github.com/Tencent/HunyuanVideo)  
+- [Wan2.1](https://github.com/Wan-Video/Wan2.1)  
 
 **文生图**
 - [Qwen-Image](https://github.com/QwenLM/Qwen-Image)  
