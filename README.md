@@ -83,7 +83,7 @@
 
 
 ## 🔥 Latest News
-- [2025/12/02] 🔥 Support [**Z-Image**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4Z-Image) and [**FLUX.2**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCA4FLUX2).
+- [2025/12/02] 🔥 Support [**Z-Image**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4Z-Image) and [**FLUX.2**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4FLUX2).
 - [2025/11/14] ⭐ We have open-sourced [**Awesome-Acceleration-GenAI**](https://github.com/joelulu/Awesome-Acceleration-GenAI), collecting the latest generation acceleration techniques. Feel free to check it out !
 - [2025/11/13] 🔥 Support [**Wan2.1**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4Wan2.1) for both T2V and I2V. 
 - [2025/11/07] 🔥 Support [**Qwen-Image**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4QwenImage) and Inference Code Released !  
@@ -97,24 +97,23 @@
 
 
 ### FLUX.2
-| Method              | Flux.2 (CPU-offload) | Flux.2         | LeMiCa-slow    | LeMiCa-medium | LeMiCa-fast   |
+| Method              | Flux.2(cpu-offload) | Flux.2         | LeMiCa-slow    | LeMiCa-medium | LeMiCa-fast   |
 |:-------------------:|:--------------------:|:--------------:|:--------------:|:-------------:|:-------------:|
-| **Latency (sec)**   | 101.2                | 32.70          | 13.41          | 10.20         | 6.99          |
+| **Latency**   | 101.2 s                | 32.70 s          | 13.41 s          | 10.20 s         | 6.99 s          |
 | **T2I** | <img width="120" alt="Flux2 CPU-offload" src="https://github.com/user-attachments/assets/76fda91e-8819-4914-87e4-8a832135da0f" /> | <img width="120" alt="Flux2" src="https://github.com/user-attachments/assets/a3f320e3-9d36-4618-9953-f714646e6bf7" /> | <img width="120" alt="LeMiCa-slow" src="https://github.com/user-attachments/assets/b28fdd2b-8178-4ba7-bf23-3da66f555593" /> | <img width="120" alt="LeMiCa-medium" src="https://github.com/user-attachments/assets/72b4361d-8afe-4c94-9654-77697e3c1444" /> | <img width="120" alt="LeMiCa-fast" src="https://github.com/user-attachments/assets/56ea6af3-e1a5-4134-890b-24f5666081e9" /> |
 
 
 ### Z-Image
 | Method   | Z-Image | LeMiCa-slow | LeMiCa-medium | LeMiCa-fast |
 |:-------:|:-------:|:-----------:|:-------------:|:-----------:|
-| **Latency (sec)**   | 2.55 s  | 2.19 s      | 1.94 s        | 1.78 s      |
+| **Latency**   | 2.55 s  | 2.19 s      | 1.94 s        | 1.78 s      |
 | **T2I** | <img width="120" alt="Z-Image" src="https://github.com/user-attachments/assets/e7aa76a9-2ffd-4cfc-8c9d-2240f357850b" /> | <img width="120" alt="LeMiCa-slow" src="https://github.com/user-attachments/assets/e7ff50b9-44bb-48ff-86f9-14dacc1b5144" /> | <img width="120" alt="LeMiCa-medium" src="https://github.com/user-attachments/assets/786ad801-ac92-4467-86a6-661b5e7dca53" /> | <img width="120" alt="LeMiCa-fast" src="https://github.com/user-attachments/assets/722d79b1-69fb-4683-914f-e92533394393" /> |
 
 
 ### Wan2.1
-<details>
-  <summary>Click to expand Wan2.1 example</summary>
+
 https://github.com/user-attachments/assets/3d99b959-7253-47ec-af0a-da13a66e6d49
-</details>
+
 
 ### Open-Sora
 
