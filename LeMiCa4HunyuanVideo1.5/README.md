@@ -72,12 +72,12 @@ export T2V_REWRITE_MODEL_NAME="<your_model_name>"
 export I2V_REWRITE_BASE_URL="<your_vllm_server_base_url>"
 export I2V_REWRITE_MODEL_NAME="<your_model_name>"
 
-PROMPT='A girl holding a paper with words "Hello, world!"'
+PROMPT="俯视角度，一位有着深色，略带凌乱的长卷发的年轻中国女性，佩戴着闪耀的珍珠项链和圆形金色耳环，她凌乱的头发被风吹散，她微微抬头，望向天空，神情十分哀伤，眼中含着泪水。嘴唇涂着红色口红。背景是带有华丽红色花纹的图案。画面呈现复古电影风格，色调低饱和，带着轻微柔焦，烘托情绪氛围，质感仿佛20世纪90年代的经典胶片风格，营造出怀旧且富有戏剧性的感觉。"
 
 IMAGE_PATH=/path/to/image.png # Optional, none or <image path> to enable i2v mode
 SEED=1
 ASPECT_RATIO=16:9
-RESOLUTION=480p
+RESOLUTION=720p
 OUTPUT_PATH=./outputs/output.mp4
 MODEL_PATH=./ckpts # Path to pretrained model
 

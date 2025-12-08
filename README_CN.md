@@ -156,19 +156,22 @@ LeMiCa 目前支持并已在以下基于扩散的模型上进行了测试：
 - [Latte](https://github.com/Vchitect/Latte)  
 - [CogVideoX 1.5](https://github.com/THUDM/CogVideo)  
 - [Wan2.1](https://github.com/Wan-Video/Wan2.1)  
-
+- [HunyuanVideo-1.5](https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5)
+  
 **文生图**
-- [Qwen-Image](https://github.com/QwenLM/Qwen-Image) 
+- [Qwen-Image](https://github.com/QwenLM/Qwen-Image)  
+- [Z-Image](https://github.com/Tongyi-MAI/Z-Image)  
+- [FLUX.2](https://github.com/black-forest-labs/flux2)  
 
 
 
 ## 🧩 待办列表
 - ✅ 公开项目主页  
 - ✅ 发布论文  
-- ☐ 文生图的前向推理 
-- ☐ 文生视频的前向推理  
+- ✅ 文生图的前向推理 
+- ✅ 文生视频的前向推理  
 - ☐ DAG建图代码 
-- ☐ 开源通用加速框架   
+- ☐ 通用加速框架   
 
 
 
