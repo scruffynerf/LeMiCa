@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="ComfyUI-LeMiCa\assets\ComfyUI.png" alt="ComfyUI-LeMiCa Workflow" width="800"/>
+  <img src=".\assets\ComfyUI.png" alt="ComfyUI-LeMiCa Workflow" width="900"/>
 </p>
 
 

@@ -99,7 +99,7 @@
 
 ### ComfyUI-LeMiCa
 <p align="center">
-  <img src="ComfyUI-LeMiCa\assets\ComfyUI.png" alt="ComfyUI-LeMiCa Workflow" width="600"/>
+  <img src="ComfyUI-LeMiCa\assets\ComfyUI.png" alt="ComfyUI-LeMiCa Workflow" width="850"/>
 </p>
 
 ### HunyuanVideo1.5
