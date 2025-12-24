@@ -1,6 +1,6 @@
-# ⚡ FLUX.2 Inference Acceleration
+# ⚡ FLUX.1 and FLUX.2 Inference Acceleration
 
-[**FLUX.2**](https://github.com/black-forest-labs/flux2) is a high-performance **text-to-image** and **image-to-image** diffusion framework built by *Black Forest Labs*. [LeMiCa](https://github.com/UnicomAI/LeMiCa) already supports and provides three optional acceleration paths based on the balance between quality and speed.🚀
+[**FLUX.1**](https://github.com/black-forest-labs/flux) and [**FLUX.2**](https://github.com/black-forest-labs/flux2) are high-performance **text-to-image** and **image-to-image** diffusion frameworks built by *Black Forest Labs*. [LeMiCa](https://github.com/UnicomAI/LeMiCa) now supports **both FLUX.1 and FLUX.2**, and provides multiple acceleration modes that balance **quality vs. speed** 🚀
 
 ---
 
@@ -21,7 +21,9 @@
 ## 🛠️ Installation & Usage
 
 
-Please refer to the original [**FLUX.2**](https://github.com/black-forest-labs/flux2) project for base installation instructions.
+Please refer to the official projects for base installation instructions:
+- [**FLUX.1**](https://github.com/black-forest-labs/flux)
+- [**FLUX.2**](https://github.com/black-forest-labs/flux2)
 
 ### 📡 Remote Text Encoder (H100/H800 Recommended)
 For heavy text encoding workloads, you can offload the text encoder to a separate dedicated GPU (e.g., H100) via a simple FastAPI service. Or refer to the [**Official Guide**](https://github.com/black-forest-labs/flux2/blob/main/docs/flux2_dev_hf.md#remote-text-encoder--h100)
@@ -52,6 +54,16 @@ def remote_text_encoder(prompts, device):
 ### Usage 
 
 ```bash
+# vanilla FLUX.1 (no caching / acceleration)
+python inference_flux1.py
+
+# LeMiCa acceleration modes
+python inference_flux1.py --cache slow
+python inference_flux1.py --cache medium
+python inference_flux1.py --cache fast
+python inference_flux1.py --cache ultra
+
+
 # vanilla FLUX.2 (no caching / acceleration)
 python inference_flux2.py
 
