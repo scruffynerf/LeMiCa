@@ -13,8 +13,12 @@
 - [Wan2.1](https://github.com/Wan-Video/Wan2.1) 
 - [Z_Image](https://github.com/Tongyi-MAI/Z-Image) 
   
-  
-https://github.com/user-attachments/assets/c44ac93f-7604-43c7-8932-c70bb2f91db4
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c44ac93f-7604-43c7-8932-c70bb2f91db4" alt="Z-Image" width="900"/>
+</p>  
+
 
 
 ## Installation
