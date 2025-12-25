@@ -83,6 +83,7 @@
 
 
 ## 🔥 Latest News
+
 - [2025/12/24] 🔥 Added support for FLUX.1-dev in [**LeMiCa4FLUX**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4FLUX)
 - [2025/12/15] 🔥 [**ComfyUI-LeMiCa**](https://github.com/UnicomAI/LeMiCa/tree/main/ComfyUI-LeMiCa) has been seamlessly integrated into [**ComfyUI**](https://github.com/comfyanonymous/ComfyUI) and is fully compatible with ComfyUI’s native nodes.
 - [2025/12/08] 🔥 Support [**HunyuanVideo-1.5**](https://github.com/UnicomAI/LeMiCa/tree/main/LeMiCa4HunyuanVideo1.5) for both T2V and I2V.
@@ -191,8 +192,8 @@ LeMiCa currently supports and has been tested on the following diffusion-based m
 
 - [Cache-DiT](https://github.com/vipshop/cache-dit) A unified and flexible inference engine for DiTs, integrating and applying LeMiCa’s core insights. Welcome to try and explore. [Details](https://github.com/vipshop/cache-dit/blob/main/docs/User_Guide.md#steps-mask)
 
+- [ComfyUI-LeMiCa](https://github.com/UnicomAI/LeMiCa/tree/main/ComfyUI-LeMiCa) now includes **Z-Image** nodes. Thanks @scruffynerf!
 
-  
 
 ## Acknowledgement
 This repository is built based on or inspired by the following open-source projects:  [Diffusers](https://github.com/huggingface/diffusers), [TeaCache](https://github.com/ali-vilab/TeaCache), [VideoSys](https://github.com/NUS-HPC-AI-Lab/VideoSys).

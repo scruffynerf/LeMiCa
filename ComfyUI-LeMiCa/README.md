@@ -8,10 +8,10 @@
 </p>
 
 
-### supported models
+### Supported models
 - [Qwen-Image](https://github.com/QwenLM/Qwen-Image)  
 - [Wan2.1](https://github.com/Wan-Video/Wan2.1) 
-
+- [Z_image](https://github.com/Tongyi-MAI/Z-Image) 
 
 ## Installation
 
