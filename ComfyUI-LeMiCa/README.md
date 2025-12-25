@@ -11,7 +11,7 @@
 ### Supported models
 - [Qwen-Image](https://github.com/QwenLM/Qwen-Image)  
 - [Wan2.1](https://github.com/Wan-Video/Wan2.1) 
-- [Z_Image](https://github.com/Tongyi-MAI/Z-Image). Thanks @scruffynerf!
+- [Z_Image](https://github.com/Tongyi-MAI/Z-Image). Thanks @[scruffynerf](https://github.com/scruffynerf).
   
 
 
